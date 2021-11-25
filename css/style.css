@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  height: 90vh;
+  width: 100%;
+  background-image: url(../assets/fundo-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua;  */
+}
+
+h1,h2,h3,h4,p {
+  font-weight: 500;
+}
+
+.figure-imagem-star {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 18%;
+  /* background-color: blanchedalmond; */
+}
+
+.imagem-star-wars {
+  height: 10vh;
+  width: 20vw;
+}
+
+.figure-imagem-wars {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  right: 23%;
+  /* background-color: blanchedalmond; */
+}
+
+.figure-imagem-personagem {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+  /* background-color: aqua; */
+}
+
+.imagem-personagem {
+  height: 110vh;
+  width: 60vw;
+  /* background-color: bisque; */
+}
+
+.section-header {
+  height: 20vh;
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 60%;
+  right: 22%;
+  /* background-color: coral;  */
+}
+
+.div-header-texto {
+  height: 50%;
+  width: 100%;
+  /* background-color: cornflowerblue; */
+}
+
+.header-titulo {
+  font-size: 1.5vw;
+}
+
+.span-titulo {
+  font-weight: 900;
+}
+
+.div-header-texto2 {
+  height: 40%;
+  width: 100%;
+  border-top: 3px solid #000;
+  display: flex;
+  align-items: flex-end;
+  /* background-color: cyan;  */
+}
+
+.div-header-botao-paragrafo {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header-paragrafo {
+  font-weight: 600;
+  font-size: 2vh;;
+}
+
+
+.span-paragrafo {
+  font-size: 2.8vh;
+}
+
+.header-botao {
+  height: 1.9vh;
+  width: 0.8vw;
+  margin-bottom: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 1.1vw;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #c4d1d4;
+}
