@@ -24,8 +24,6 @@ h1,h2,h3,h4,p {
   font-weight: 500;
 }
 
-
-
 .figure-imagem-star {
   height: 20vh;
   display: flex;
@@ -336,7 +334,7 @@ main{
 /* ----------------------------- */
 
 .container-atributos-main {
-  height: 150vh;
+  height: 240vh;
   width: 100%;
   background-color: #2d2d2d;
   display: flex;
@@ -347,5 +345,94 @@ main{
 .div-atributos-main{
   /* border: solid #b72409; */
   width: 85%;
-  height: 40%;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.div-titulo-atributos-main{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   width: 20%;
+   height: 20vh;
+   /* border: #fff solid; */
+}
+
+.titulo-atributos-main{
+  color: #fff;
+  font-size: 1.9vw;
+  font-weight: 900;
+}
+
+.div-imagens-atributos-main{
+   /* border: solid #b72409; */
+   width: 100%;
+   height: 55vh;
+   display: flex;
+}
+
+.figure-imagens-atirbutos-main{
+  height: 100%;
+  width: 50%;
+  /* border: #c4d1d4 solid; */
+}
+
+.batalha-imagens{
+  width: 100%;
+  height: 100%;
+}
+
+.div-imgs-menores-atributos{
+  height: 100%;
+  width: 50%;
+  /* border: solid #636e72; */
+  display: flex;
+  flex-direction: column;
+  flex: wrap;
+}
+
+.flex-imgs-menores{
+ display: flex;
+ width: 100%;
+ height: 50%;
+}
+
+.tamanho-imgs-menores{
+  width: 50%;
+  height: 100%;
+}
+
+.figure-imagem-gurreiros{
+  width: 100%;
+  height: 80vh ;
+}
+
+.imagem-gurreiros{
+   width: 100%;
+   height: 100%;
+}
+
+.paragrafo-atributos{
+  text-align: right;
+  /* width: ; */
+  width: 50%;
+  align-self: flex-end;
+  font-size: 1vw;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.div-subtitulo-atributos{
+   height: 50vh;
+   /* border: solid #fff; */
+   color: #fff;
+   display: flex;
+   align-items: center;
+}
+
+.subtitulo-atributos{
+  font-weight: 900; 
+  font-size: 2.4vw; 
 }
