@@ -132,6 +132,9 @@ h1,h2,h3,h4,p {
   background-color: #c4d1d4;
 }
 
+.header-botao:hover{
+  cursor: pointer;
+}
 /* -------------MAIN---------- */
 
 main{
@@ -371,42 +374,113 @@ main{
    width: 100%;
    height: 55vh;
    display: flex;
+   position: relative;
 }
 
-.figure-imagens-atirbutos-main{
-  height: 100%;
+.div-batalha{
+    height: 100%;
+    width: 50%;
+    background-color: #d74632;
+    position:absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.div-batalha:hover{
+  opacity: 80%;
+}
+
+.imagem-batalha{
   width: 50%;
-  /* border: #c4d1d4 solid; */
+  height: 100%;
 }
 
-.batalha-imagens{
+.container-imgs-menores {
   width: 100%;
   height: 100%;
-}
-
-.div-imgs-menores-atributos{
-  height: 100%;
-  width: 50%;
-  /* border: solid #636e72; */
   display: flex;
   flex-direction: column;
-  flex: wrap;
+  /* background-color: #b72409 ; */
+  /* border: yellow; */
+  position: relative;
 }
 
-.flex-imgs-menores{
- display: flex;
- width: 100%;
- height: 50%;
+.div-imgs-menores1{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  position: relative;
 }
 
-.tamanho-imgs-menores{
+.div-historia{
   width: 50%;
   height: 100%;
+  background-color: #d74632;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; 
+}
+
+.div-historia:hover{
+  opacity: 80%;
+}
+
+.imagem-historia{
+  width: 50%;
+  height: 100%;
+}
+
+.div-historia2{
+   width: 50%;
+   height: 100%;
+   background-color: #d74632;
+   position: absolute;
+   top: 0;
+   left: 50% ;
+   opacity: 0;
+}
+
+.div-historia2:hover{
+  opacity: 80%;
+}
+
+.div-imgs-menores2{
+   width: 100%;
+   height: 50%;
+   display: flex;
+   position: relative;
+}
+
+.div-jogabilidade{
+  width: 50%;
+  height: 100%;
+  background-color: #d74632;
+  position: absolute;
+  opacity: 0;
+}
+
+.div-jogabilidade:hover{
+  opacity: 80%;
+}
+
+.div-jogabilidade2{
+   width: 50%;
+   height: 100%;
+   background-color: #d74632;
+   position: absolute;
+   left: 50%; 
+   opacity: 0;
+}
+
+.div-jogabilidade2:hover{
+  opacity: 80%;
 }
 
 .figure-imagem-gurreiros{
   width: 100%;
-  height: 80vh ;
+  height: 85vh ;
 }
 
 .imagem-gurreiros{
@@ -417,7 +491,8 @@ main{
 .paragrafo-atributos{
   text-align: right;
   /* width: ; */
-  width: 50%;
+  /* border: #b72409; */
+  width: 52%;
   align-self: flex-end;
   font-size: 1vw;
   color: #fff;
@@ -435,4 +510,120 @@ main{
 .subtitulo-atributos{
   font-weight: 900; 
   font-size: 2.4vw; 
+}
+
+.container-final-main{
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagem-personagem4-main{
+  /* border: #000 solid; */
+  width: 80%;
+  height: 102vh;
+  position: relative;
+  bottom: 90%;
+  left: 20%;
+}
+
+.caixa-botoes-main{
+  height: 35vh;
+  width: 60%;
+  /* border: #b72409 solid; */
+  position: relative;
+  right: 4% ;
+  top: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.caixa-dowload{
+  height: 85%;
+  width: 30%;
+  /* border: #636e72 solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.caixa-escolher{
+   height: 85%;
+   width: 30%;
+   /* border: #636e72 solid; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.caixa-explorar{
+  height: 85%;
+  width: 30%;
+  /* border: #636e72 solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo-todas-caixas{
+  font-weight: 500;
+}
+
+.titulo-todas-caixas:hover{
+  font-weight: 900;
+}
+
+.btn-todas-caixas{
+  height: 7vh;
+  width: 13vw;
+  background: #000;
+  border: none;
+  font-size: 1.6vw;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn-todas-caixas:hover{
+  transition: box-shadow 1s;
+  box-shadow: inset 20vw 0 #d74632;
+}
+
+.paragrafo-caixa-dowload{
+  height: 8vh;
+  width: 55%;
+  /* border: solid #2d2d2d; */
+  text-align: center;
+  font-size: 1vw;
+}
+
+.paragrafo-caixa-escolher{
+  height: 8vh;
+  width: 34%;
+  /* border: solid #2d2d2d; */
+  text-align: center;
+  font-size: 1vw;
+}
+
+.paragrafo-caixa-explorar{
+  height: 8vh;
+  width: 30%;
+  /* border: solid #2d2d2d; */
+  text-align: center;
+  font-size: 1vw;
+}
+
+.hr-todas-caixas{
+  width: 8vw;
+  height: 0.8vh;
+  background-color: #000 ;
+}
+
+.hr-todas-caixas:hover{
+  background-color: #d74632;
+  transition: all 0.5s ease;
 }
