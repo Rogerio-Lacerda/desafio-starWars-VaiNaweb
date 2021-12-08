@@ -132,9 +132,6 @@ h1,h2,h3,h4,p {
   background-color: #c4d1d4;
 }
 
-.header-botao:hover{
-  cursor: pointer;
-}
 /* -------------MAIN---------- */
 
 main{
@@ -247,7 +244,6 @@ main{
 }
 
 .figure-img-main{
-
  height: 50%;
  width: 50%;
 }
@@ -260,6 +256,7 @@ main{
 .hr-principal{
   border-color: #636e72;
   width: 75%;
+  height: 0.2%;
 }
 
 /* ------------------------------- */
@@ -345,7 +342,7 @@ main{
   align-items: center;
 }
 
-.div-atributos-main{
+.section-atributos-main{
   /* border: solid #b72409; */
   width: 85%;
   height: 200vh;
@@ -384,11 +381,76 @@ main{
     position:absolute;
     top: 0;
     left: 0;
+    /* opacity: 80%; */
     opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .div-batalha:hover{
-  opacity: 80%;
+  opacity: 78%;
+}
+
+.conteudo-batalha{
+  height: 95%;
+  width: 95%;
+  /* border: springgreen solid; */
+  position: relative;
+}
+
+.borda-parte-cima-batalha{
+  border-top: solid #fff ;
+  border-left: solid #fff ;
+  height: 10vh;
+  width: 5vw;
+}
+
+.galaxia-batalha{
+  height: 40vh;
+  width: 90%;
+  /* border: steelblue solid; */
+  position: absolute;
+  bottom: 15%;
+  left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.titulo-galaxia-batalha{
+  font-size: 2vw;
+  width: 45%;
+  /* border: #fff solid; */
+  color: #fff;
+  font-weight: 900;
+  opacity: 100%;
+}
+
+.paragarafo-galaxia-batalha{
+  font-size: 1vw;
+  color: #fff;
+  width: 80%;
+}
+
+.btn-galaxia-batalha{
+  background: transparent;
+  color: #fff;
+  height: 7vh;
+  width: 13vw;
+  border: #fff solid;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+
+.borda-parte-baixo-batalha{
+  height: 10vh;
+  width: 5vw;
+  border-bottom: #fff solid;
+  border-right: #fff solid;
+  position: absolute;
+  right: 0%;
+  top: 81%;
 }
 
 .imagem-batalha{
@@ -413,26 +475,92 @@ main{
   position: relative;
 }
 
-.div-historia{
+.div-grafico{
   width: 50%;
   height: 100%;
   background-color: #d74632;
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0; 
+  opacity: 0;
+  /* opacity: 78%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.div-historia:hover{
-  opacity: 80%;
+.conteudo-grafico {
+  height: 95%;
+  width: 98%;
+  /* border: springgreen solid; */
+  position: relative;
 }
 
-.imagem-historia{
+.div-grafico:hover{
+  opacity: 78%;
+}
+
+.borda-parte-cima-grafico{
+  border-top: solid #fff;
+  border-left: solid #fff;
+  height: 7vh;
+  width: 4vw;
+}
+
+.novo-grafico{
+  height: 23vh;
+  width: 90%;
+  /* border: steelblue solid; */
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.titulo-novo-grafico{
+   font-size: 1.3vw;
+   width: 45%;
+   /* border: #fff solid; */
+   color: #fff;
+   font-weight: 900;
+   opacity: 100%;
+  }
+
+.paragrafo-novo-grafico{
+  font-size: 0.8vw;
+  color: #fff;
+  width: 99%;
+}
+
+.btn-novo-grafico{
+  background: transparent;
+  color: #fff;
+  height: 5vh;
+  width: 8vw;
+  border: #fff solid;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+
+.borda-parte-baixo-grafico{
+   height: 7vh;
+   width: 4vw;
+   border-bottom: #fff solid;
+   border-right: #fff solid;
+   position: absolute;
+   right: 0%;
+   top: 72%;
+}
+
+
+.imagem-grafico{
   width: 50%;
   height: 100%;
 }
 
-.div-historia2{
+.div-jogos{
    width: 50%;
    height: 100%;
    background-color: #d74632;
@@ -440,10 +568,14 @@ main{
    top: 0;
    left: 50% ;
    opacity: 0;
+   /* opacity: 78%; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-.div-historia2:hover{
-  opacity: 80%;
+.div-jogos:hover{
+  opacity: 78%;
 }
 
 .div-imgs-menores2{
@@ -459,10 +591,14 @@ main{
   background-color: #d74632;
   position: absolute;
   opacity: 0;
+  /* opacity: 78%; */
+  display: flex;
+  justify-content: center;
+   align-items: center;
 }
 
 .div-jogabilidade:hover{
-  opacity: 80%;
+  opacity: 78%;
 }
 
 .div-jogabilidade2{
@@ -471,12 +607,19 @@ main{
    background-color: #d74632;
    position: absolute;
    left: 50%; 
+   /* bottom: 1%; */
    opacity: 0;
+   /* opacity: 78%; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .div-jogabilidade2:hover{
-  opacity: 80%;
+  opacity: 78%;
 }
+
+/* ----------------------------------------- */
 
 .figure-imagem-gurreiros{
   width: 100%;
@@ -511,6 +654,8 @@ main{
   font-weight: 900; 
   font-size: 2.4vw; 
 }
+
+/* ------------------------ */
 
 .container-final-main{
   height: 60vh;
@@ -626,4 +771,102 @@ main{
 .hr-todas-caixas:hover{
   background-color: #d74632;
   transition: all 0.5s ease;
+}
+
+/* FOOOTER-------------------------------- */
+
+footer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* position: relative; */
+}
+
+.container-footer{
+  width: 70%;
+  height: 100%;
+  background-color: #ff5a56;
+  /* display: flex; */
+}
+
+.div-principal-footer{
+  /* border: solid #2d2d2d; */
+  height: 100vh;
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.div-aplicativo{
+   border-bottom: solid #d94532;
+  height: 50vh;
+  width: 70%;
+  /* border: yellow solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.titulo-aplicativo{
+  font-size: 2.3vw;
+  font-weight: 900;
+  color: #fff;
+  height: 10vh;
+}
+
+.paragrafo-aplicativo{
+  font-size: 1vw;
+  color: #fff;
+  opacity: 70%;
+  width: 95% ;
+}
+
+.figure-botoes-aplicativos{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoes-aplicativos{
+  height: 10vh;
+  width: 48%;
+  cursor: pointer;
+}
+
+.div-star-wars-footer{
+  height: 30vh;
+  width: 70%;
+  /* border:springgreen solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-star-wars-footer{
+  height: 13vh;
+  width: 13vw;
+}
+
+.paragrafo-star-wars{
+  font-size: 1vw;
+  color: #fff;
+  opacity: 70%;
+  width: 93%;
+}
+
+.figure-personagem-footer{
+  height: 105vh;
+  width: 40%;
+  position: relative;
+  bottom: 10% ;
+  right: 8%;
+  /* border: yellowgreen solid; */
+}
+
+.img-personagem-footer{
+  /* border: solid #2d2d2d; */
+  width: 90%;
+  height: 100%; 
 }
