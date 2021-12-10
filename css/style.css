@@ -167,6 +167,15 @@ main {
   color: #fff;
 }
 
+.estrutura-subfundo-main {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .titulo-subfundo-main {
   width: 65%;
   font-weight: 600;
@@ -250,18 +259,16 @@ main {
 .section-parte2-main {
   height: 70%;
   width: 75%;
-  /* background-color: aqua; */
   display: flex;
   justify-content: space-between;
   position: relative;
-
 }
 
 .imagem-personagem2-main {
   width: 80%;
   height: 100%;
   position: relative;
-  top: 10%;
+  top: 2%;
 }
 
 .div-estrutura-jogo-main {
@@ -308,18 +315,19 @@ main {
   height: 90%;
   position: relative;
   left: 20%;
-  top: 20%;
+  top: 10%;
 }
 
 /* ----------------------------- */
 
 .container-atributos-main {
-  height: 240vh;
+  height: 260vh;
   width: 100%;
   background-color: #2d2d2d;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .section-atributos-main {
@@ -346,7 +354,7 @@ main {
 
 .div-imagens-atributos-main {
   width: 100%;
-  height: 105vh;
+  height: 50vh;
   display: flex;
   position: relative;
 }
@@ -424,7 +432,7 @@ main {
   border-right: #fff solid;
   position: absolute;
   right: 0%;
-  top: 81%;
+  top: 77%;
 }
 
 .imagem-batalha {
@@ -478,7 +486,7 @@ main {
 }
 
 .novo-grafico {
-  height: 23vh;
+  height: 22vh;
   width: 90%;
   position: absolute;
   bottom: 5%;
@@ -519,7 +527,7 @@ main {
   border-right: #fff solid;
   position: absolute;
   right: 0%;
-  top: 72%;
+  top: 70%;
 }
 
 
@@ -787,7 +795,6 @@ footer {
 .div-star-wars-footer {
   height: 30vh;
   width: 70%;
-  /* border:springgreen solid; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -811,20 +818,16 @@ footer {
   position: relative;
   bottom: 10%;
   right: 8%;
-  /* border: yellowgreen solid; */
 }
 
 .img-personagem-footer {
-  /* border: solid #2d2d2d; */
   width: 90%;
   height: 100%;
 }
 
 
 /* ------------------------MEDIA------------------- */
-/* @media(max-width:1087px) {
 
-} */
 
 @media(max-width:1110px) {
   header {
@@ -927,7 +930,7 @@ footer {
   }
 }
 
-/* /////////////////////////////// */
+/* //////////////////////////// */
 @media(max-width:1000px) {
   .div-subfundo-main {
     height: 38vh;
@@ -949,7 +952,7 @@ footer {
   }
 }
 
-/* ///////////////////////////////*/
+/* ///////////////////////////*/
 
 @media(max-width:750px) {
   header {
@@ -1256,7 +1259,7 @@ footer {
 
 }
 
-/* /////////////////////////// */
+/* ////////////////////////// */
 
 @media(max-width:530px) {
   header {
@@ -1325,7 +1328,7 @@ footer {
   }
 
   .container-fundo-main {
-    height: 280vh;
+    height: 250vh;
     width: 100%;
     background-image: url(../assets/fundo-main.png);
     background-size: contain;
@@ -1336,28 +1339,38 @@ footer {
   }
 
   .section-parte1-main {
-    height: 640vh;
-    width: 55%;
+    height: 200vh;
+    width: 75%;
     z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-evenly;
     /* background-color: aqua; */
   }
 
   .div-subfundo-main {
-    height: 45%;
+    height: 40%;
     width: 95%;
     bottom: 0;
-    top: 10%;
+    top: 0%;
     /* right: 20%; */
     background-size: cover;
+    flex: wrap;
+  }
 
+  .estrutura-subfundo-main {
+    height: 80%;
+    width: 40vw;
+    /* border: olive solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .titulo-subfundo-main {
-    width: 50%;
+    width: 60%;
     font-weight: 600;
     font-size: 5.5vw;
     /* background-color: aqua; */
@@ -1392,8 +1405,13 @@ footer {
     justify-content: space-around
   }
 
+  .hr-texto-main {
+    width: 35%;
+    background-color: #000;
+  }
+
   .div-texto-main {
-    height: 35%;
+    height: 20%;
     width: 100%;
     /* background-color:burlywood; */
     display: flex;
@@ -1408,7 +1426,7 @@ footer {
   }
 
   .titulo-texto-main {
-    font-size: 2.8vw;
+    font-size: 4.8vw;
 
   }
 
@@ -1417,8 +1435,8 @@ footer {
   }
 
   .paragrafo-texto-main {
-    font-size: 2.6vw;
-    width: 120%;
+    font-size: 3.3vw;
+    width: 100%;
   }
 
   .hr-principal {
@@ -1427,30 +1445,48 @@ footer {
     border: none;
   }
 
+  .section-parte2-main {
+    height: 20%;
+    width: 75%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
   .div-estrutura-jogo-main {
     width: 40%;
-    height: 48%;
+    height: 78%;
     position: absolute;
-    top: 40%;
+    top: 10%;
     /* border: #fff solid; */
+  }
+
+  .ul-estrutura-jogo {
+    height: 50%;
+  }
+
+  .li-estrutura-jogo {
+    font-size: 2.1vw;
+    font-weight: 600;
   }
 
 
   .imagem-personagem2-main {
     /* border: solid #000; */
     width: 80%;
-    height: 70%;
+    height: 90%;
     position: relative;
-    top: 40%;
+    top: 16%;
   }
 
   .imagem-personagem3-main {
     /* border: solid #000; */
     width: 80%;
-    height: 60%;
+    height: 90%;
     position: relative;
     left: 20%;
-    top: 49%;
+    top: 19%;
   }
 
   .div-titulo-atributos-main {
@@ -1604,9 +1640,14 @@ footer {
     align-items: center;
   }
 
+  .subtitulo-atributos {
+    font-size: 4vw;
+  }
+
   .paragrafo-atributos {
     width: 60%;
     align-self: center;
+    font-size: 2.3vw;
   }
 
   .container-final-main {
@@ -1811,6 +1852,69 @@ footer {
 
 }
 
+/* ///////////////////////// */
+
+@media(max-width:450px) {
+  header {
+    height: 25vh;
+    width: 100%;
+    /* background-color: aqua;  */
+  }
+
+  .figure-imagem-star {
+    height: 20vh;
+    top: 8%;
+    left: 15%;
+    /* background-color: blanchedalmond; */
+  }
+
+
+  .figure-imagem-wars {
+    height: 20vh;
+    top: 8%;
+    right: 19%;
+    /* background-color: blanchedalmond; */
+  }
+
+  .imagem-personagem {
+    height: 24vh;
+    width: 50vw;
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    /* background-color: bisque; */
+  }
+
+  .section-header {
+    height: 8vh;
+    width: 13vw;
+    position: absolute;
+    top: 22%;
+    right: 23%;
+    /* background-color: coral;  */
+  }
+
+  .header-titulo {
+    font-size: 2vw;
+  }
+
+  .header-paragrafo {
+    font-weight: 600;
+    font-size: 1.4vw;
+    ;
+  }
+
+  .span-paragrafo {
+    font-size: 2.2vw;
+  }
+
+  .header-botao {
+    height: 2.0vh;
+    width: 2.9vw;
+    font-size: 3.4vw;
+  }
+}
+
 /* /////////////////////// */
 
 @media(max-width:375px) {
@@ -1888,13 +1992,13 @@ footer {
   }
 
   .section-parte1-main {
-    height: 640vh;
-    width: 55%;
+    height: 200vh;
+    width: 75%;
     z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* background-color: aqua; */
   }
 
@@ -1902,7 +2006,7 @@ footer {
     height: 35%;
     width: 95%;
     bottom: 0;
-    top: 10%;
+    top: 0;
     /* right: 20%; */
     background-size: cover;
     flex-wrap: wrap;
@@ -1936,14 +2040,14 @@ footer {
 
   .paragrafo-texto-main {
     font-size: 3.6vw;
-    width: 135%;
+    width: 100%;
   }
 
   .div-estrutura-jogo-main {
-    width: 40%;
-    height: 68%;
+    width: 50%;
+    height: 88%;
     position: absolute;
-    top: 20%;
+    top: 10%;
     /* border: #fff solid; */
   }
 
@@ -1965,11 +2069,12 @@ footer {
   }
 
   .ul-estrutura-jogo {
-    height: 60%;
+    height: 50%;
+    width: 100%;
   }
 
   .li-estrutura-jogo {
-    font-size: 1.72vw;
+    font-size: 2vw;
     font-weight: 600;
   }
 
@@ -2014,4 +2119,22 @@ footer {
     font-size: 3.5vw;
   }
 
+}
+
+/* ////////////////////// */
+
+@media(max-width:290px) {
+  .figure-imagem-star {
+    height: 20vh;
+    top: 3%;
+    left: 15%;
+    /* background-color: blanchedalmond; */
+  }
+
+  .figure-imagem-wars {
+    height: 20vh;
+    top: 3%;
+    right: 18%;
+    /* background-color: blanchedalmond; */
+  }
 }
